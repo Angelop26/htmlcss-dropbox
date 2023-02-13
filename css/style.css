@@ -35,7 +35,7 @@ li{
 }
 
 .main-container{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     /* debug */
     border: 1px solid red;
@@ -43,8 +43,19 @@ li{
 }
 
 .button{
+    text-align: center;
     background-color: #0061ff;
     color: white;
+}
+.mg-btm-10{
+    margin-bottom: 10px;
+}
+.mg-btm-20{
+    margin-bottom: 20px;
+}
+
+.gray{
+    color: #667eb5;
 }
 /* HEADER */
 /* navigation */
@@ -92,6 +103,53 @@ h1{
     font-size: 2rem;
 }
 /* MAIN */
+/* plane */
+.business-plane h2{
+    margin-bottom: 30px;
+}
+
+.plane{
+    width: 30%;
+    border: 1px solid #d0d0d3;
+    font-size: .8rem;
+}
+.top-card{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px 0;
+}
+.middle-card{
+    padding: 20px 10px;
+}
+.mg-btm-20.button{
+    padding: 10px 20px;
+}
+hr{
+    width: 20%;
+    color: #d0d0d3;
+    opacity: .5;
+}
+.acquista-ora{
+    text-decoration: underline;
+    color: #00e;
+}
+.color-blu{
+    color: #0061ff;
+}
+
+.enterprise{
+    border: 1px solid #d0d0d3;
+    margin-top: 30px;
+}
+.bottom-card{
+    padding: 20px 15px;
+}
+.enterprise-container-left{
+    width: 50%;
+}
+.enterprise-container-right{
+    width: 50%;
+}
 .partners{
     /* debug */
     height: 300px;
