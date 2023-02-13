@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    max-width: 100%;
+}
+/* COMMON */
+.container-top-bottom{
+    width: 90%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+    height: 150px;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid red;
+    height: 300px;
+}
+/* HEADER */
+/* navigation */
+.navigation-bar{
+    /* debug */
+    height: 80px;
+    border: 1px solid black;
+}
+
+.jumbotron{
+    /* debug */
+    height: 200px;
+    background-color: aquamarine;
+}
+
+/* MAIN */
+.partners{
+    /* debug */
+    height: 300px;
+    border: 1px solid blue;
+}
