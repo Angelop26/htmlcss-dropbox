@@ -38,8 +38,8 @@ li{
     width: 50%;
     margin: 0 auto;
     /* debug */
-    border: 1px solid red;
-    height: 300px;
+    /* border: 1px solid red;
+    height: 300px; */
 }
 
 .button{
@@ -54,6 +54,9 @@ li{
     margin-bottom: 20px;
 }
 
+.mg-btm-50{
+    margin-bottom: 50px;
+}
 .gray{
     color: #667eb5;
 }
@@ -65,7 +68,7 @@ li{
     width: 100%;
     z-index: 999;
     /* debug */
-    /* height: 80px; */
+    height: 40px;
     /* border: 1px solid black; */
 }
 
@@ -144,12 +147,50 @@ hr{
 .bottom-card{
     padding: 20px 15px;
 }
-.enterprise-container-left{
-    width: 50%;
+.bottom-card .enterprise-container-left{
+    width: 40%;
 }
-.enterprise-container-right{
-    width: 50%;
+.bottom-card .enterprise-container-right{
+    width: 60%;
 }
+
+/* contact */
+.contact img{
+    width: 60%;
+}
+
+.contact-text{
+    width: 40%;
+    padding: 20px 30px;
+}
+
+.contact-text p{
+    font-size: .8rem;
+}
+.btn-white{
+    border: 1px solid black;
+    padding: 10px 15px; 
+}
+
+/* operation */
+.operations-container{
+    flex-wrap: wrap;
+}
+.operation{
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.operation p{
+    font-size: .8rem;
+}
+
+.users a{
+    text-decoration: underline;
+    color: #00e;
+}
+
+
 .partners{
     /* debug */
     height: 300px;
