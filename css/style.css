@@ -79,7 +79,8 @@ li{
     width: 100%;
     z-index: 999;
     /* debug */
-    height: 40px;
+    height: 70px;
+    line-height: 70px;
     /* border: 1px solid black; */
 }
 
@@ -87,11 +88,15 @@ li{
     font-size: .8rem;
 }
 
+.nav-left img{
+    vertical-align: middle;
+}
+
 .navigation-bar li:hover{
     border-bottom: 1px solid black;
 }
 .navigation-bar *{
-    padding: 5px;
+    padding: 0px 5px;
 }
 
 /* jumbotron */
@@ -140,6 +145,9 @@ h1{
 .business-plane h2{
     margin-bottom: 30px;
 }
+ .checkbox span{
+    margin-right: 20px;
+ }
 
 .plane{
     width: 30%;
